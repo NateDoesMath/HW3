@@ -1,0 +1,36 @@
+#info-section {
+	margin-bottom: 5rem;
+}
+
+body {
+	background-image: url("img/portal.png");
+	background-size: cover;
+}
+
+img {
+	border-radius: 20%;
+}
+
+button {
+	margin-top: 2.0rem;
+	margin-bottom: 2.0rem;
+}
+
+footer {
+	margin-top: 10rem;
+	font-size: 10px;
+}
+
+.btn-primary {
+	background-color:  #55a630;
+	border-color: #ccff33;
+	color: yellow;
+}
+
+.btn-primary:hover {
+	background-color: #ccff33;
+    border-color: #55a630;
+    color: green;
+}
+
+
