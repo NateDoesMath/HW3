@@ -1,5 +1,6 @@
-#info-section {
-	margin-bottom: 5rem;
+#info {
+	display: block;
+	margin-bottom: 2rem;
 }
 
 body {
@@ -11,14 +12,31 @@ img {
 	border-radius: 20%;
 }
 
+input[type=number] {
+  	background-color: yellow;
+  	postion: absolute;
+  	opacity: 80%;
+  	background-image: url("img/search.png");
+ 	background-position: 10px 10px;
+  	background-repeat: no-repeat;
+  	padding-left: 40px;
+  	top: 50;
+}
+
+input[type=number]:focus {
+  background-color: lightgreen;
+}
+
 button {
 	margin-top: 2.0rem;
 	margin-bottom: 2.0rem;
 }
 
 footer {
-	margin-top: 10rem;
-	font-size: 10px;
+ 	position: absolute;
+ 	bottom: 0;
+  	width: 100%;
+  	height: 2.5rem;     
 }
 
 .btn-primary {
