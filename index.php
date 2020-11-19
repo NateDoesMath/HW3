@@ -12,19 +12,21 @@
 <body>
 	<div class="container">
     <div id="info">
-    	<h1 class="text-center">Rick and Morty Character Finder</h1>
+    	<h1 class="text-center">Rick and Morty Pickle Rick Finder</h1>
         <p class="text-center">Enter an ID from 1-627 to search for a character.
     </div>
     
     
     <div class="row">
-        <div class="col">
+        <div class="col mx-3 text-center">
             <img src="" class="img-fluid" id="Image"><br>
-            <span id="Name"></span><br>
-            <span id="Gender"></span><br>
-            <span id="Status"></span><br>
-            <span id="Species"></span><br>
-            <span id="Origin"></span><br>
+            <h3>
+                Name: <span id="Name"></span><br>
+                Gender: <span id="Gender"></span><br>
+                Status: <span id="Status"></span><br>
+                Species: <span id="Species"></span><br>
+                Origin: <span id="Origin"></span><br>
+            </h3>
         </div>
     </div>
     
@@ -42,7 +44,7 @@
     
     <script src="js/script.js"></script>
     
-    <footer class="text-left">
+    <footer class="text-center">
         <p>I require a baby yoda in my life- Nate Beal CST 336
     </footer>
 </body>

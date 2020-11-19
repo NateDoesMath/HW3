@@ -10,10 +10,10 @@
             let response = await fetch(url);
             let data = await response.json();
             console.log(data);
-            $("#Name").html(" - Name: " + data.name);
+            $("#Name").html(data.name);
             $("#Image").attr("src", data.image);
-            $("#Gender").html(" - Gender: " + data.gender);
-            $("#Status").html(" - Status: " + data.status);
-            $("#Species").html(" - Species: " + data.species);
-            $("#Origin").html(" - Origin: " + data.origin.name);
+            $("#Gender").html(data.gender);
+            $("#Status").html(data.status);
+            $("#Species").html(data.species);
+            $("#Origin").html(data.origin.name);
         });
